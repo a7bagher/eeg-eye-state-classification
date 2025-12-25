@@ -1,23 +1,12 @@
 # EEG Eye State Classification (Eyes Open vs. Eyes Closed)
 
-In this project, a machine learning pipeline is used to classify EEG eye state (eyes open vs. eyes closed) using a public dataset from the UCI Machine Learning Repository. The dataset includes EEG signals recorded from 14 channels with labels indicating whether the subject’s eyes were open or closed. I compare a baseline Logistic Regression model with a Random Forest model and interpret the most influential EEG channels using Random Forest feature importance.
-
-## Project Goals
-
-- Load and clean an EEG dataset (ARFF → pandas)
-- Build an ML pipeline for binary classification
-- Compare a baseline linear model vs. a random forest model for EEG data.
-- Interpret which EEG channels contribute most to eyes open vs. eyes closed classification.
+In this project, a machine learning pipeline is used to classify EEG eye state (eyes open vs. eyes closed) using a public dataset from the UCI Machine Learning Repository. The dataset includes EEG signals recorded from 14 channels with labels indicating whether the subject’s eyes were open or closed. My goal with this project is to compare a baseline Logistic Regression model with a Random Forest model and interpret the most influential EEG channels using Random Forest feature importance.
 
 ## Dataset
 
 **Source:** UCI Machine Learning Repository — *EEG Eye State Dataset*  
 https://archive.ics.uci.edu/ml/datasets/EEG+Eye+State
 The dataset includes EEG recordings across multiple channels with a binary label indicating eye state.
-
-- **Target label:** `eyeDetection`  
-  - `0` = Eyes Open  
-  - `1` = Eyes Closed  
 
 > Note: In this repo, the dataset from UCI is placed in the `data/` folder.
 
